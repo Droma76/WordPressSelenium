@@ -29,7 +29,7 @@ namespace WordpressTestAutomation.Tests
 
             NewPostPage.GoToNewPost();
 
-            Assert.Equal(PostPage.Title, "This is a test post title");
+            Assert.Equal("This is a test post title", PostPage.Title);
             // Assert.Equal(PostPage.Body, "Hi, this is the body");
         }
 
